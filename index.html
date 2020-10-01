@@ -1,0 +1,667 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <style>
+        @import url('https://www.oracle.com/a/ocom/docs/dc/tb/src/oracle-sans-font.css?family=Oracle+Sans');
+
+        @media screen {
+            @font-face {
+                font-family: "Oracle Sans";
+                src: url("https://static.oracle.com/cdn/fonts/oraclesans.woff") format("woff"), url("https://static.oracle.com/cdn/fonts/oraclesans.woff2") format("woff2");
+                font-weight: 300;
+                font-style: normal;
+                -webkit-font-smoothing: antialiased;
+                -moz-font-smoothing: antialiased;
+                font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+        }
+
+        #outlook a {
+            padding: 0;
+        }
+
+        body {
+            width: 100% !important;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            margin: 20px 0px 0px 0px;
+            padding: 0;
+            background-color: #F3F3F2;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        img {
+            outline: none;
+            text-decoration: none;
+            border: none;
+            -ms-interpolation-mode: bicubic;
+        }
+
+        table td {
+            border-collapse: collapse;
+        }
+
+        a img {
+            border: none;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        a:link {
+            color: inherit;
+            text-decoration: none;
+            font-weight: inherit;
+            line-height: inherit;
+        }
+
+        td a,
+        td a:link,
+        td a:visited {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        v:* {
+            behavior: url(#default#VML);
+            display: block;
+        }
+
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        .hr-line {
+            width: 24px !important;
+        }
+    </style>
+
+    <style>
+        @media only screen and (max-width: 359px) {
+
+            html,
+            body {
+                padding: 0 !important;
+                height: 100% !important;
+                width: 100% !important;
+                mso-line-height-rule: exactly !important;
+            }
+
+            .w124 {
+                width: 124px;
+                height: auto;
+            }
+
+            #mainTable {
+                margin: 0 auto;
+                display: block !important;
+            }
+
+            .img-fullwidth {
+                width: 100% !important;
+                height: auto !important;
+            }
+
+            .devicewidth {
+                text-align: center !important;
+                padding-right: 0px !important;
+                padding-left: 0px !important;
+                float: none;
+                width: 100% !important;
+                max-width: 100% !important;
+                margin:
+                    0 auto !important;
+            }
+
+            .ow49s {
+                width: 100% !important;
+                padding-right: 0px !important;
+                padding-left: 0px !important;
+                display: block;
+            }
+
+            .ow49p {
+                width: 100% !important;
+                padding-right: 0px !important;
+                padding-left: 0px !important;
+                display: block;
+            }
+        }
+
+        @media only screen and (max-width: 540px) {
+            .img-fullwidth {
+                width: 100% !important;
+                height: auto !important;
+            }
+
+            .devicewidth {
+                width: 100% !important;
+                text-align: center !important;
+                padding-right: 0px !important;
+                padding-left: 0px !important;
+                float: none;
+            }
+
+            .fs23 {
+                font-size: 23px !important;
+            }
+
+            .pad-t40 {
+                padding-top: 40px !important;
+            }
+
+            .pad-t30 {
+                padding-top: 30px !important;
+            }
+
+            .pad-t25 {
+                padding-top: 25px !important;
+            }
+
+            .pad-t20 {
+                padding-top: 20px !important;
+            }
+
+            .pad-t10 {
+                padding-top: 10px !important;
+            }
+
+            .pad-t15 {
+                padding-top: 15px !important;
+            }
+
+            .pad-t6 {
+                padding-top: 6px !important;
+            }
+
+            .pad-t0 {
+                padding-top: 0px !important;
+            }
+
+            .pad-b0 {
+                padding-bottom: 0px !important;
+            }
+
+            .width0 {
+                width: 0px;
+            }
+
+            .pad-b40 {
+                padding-bottom: 40px !important;
+            }
+
+            .pad-b30 {
+                padding-bottom: 30px !important;
+            }
+
+            .pad-b25 {
+                padding-bottom: 25px !important;
+            }
+
+            .pad-b20 {
+                padding-bottom: 20px !important;
+            }
+
+            .pad-b15 {
+                padding-bottom: 15px !important;
+            }
+
+            .pad-b10 {
+                padding-bottom: 10px !important;
+            }
+
+            .pad-b0 {
+                padding-bottom: 0px !important;
+            }
+
+            .pad-l30 {
+                padding-left: 30px !important;
+            }
+
+            .pad-l25 {
+                padding-left: 25px !important;
+            }
+
+            .pad-l24 {
+                padding-left: 24px !important;
+            }
+
+            .pad-l20 {
+                padding-left: 20px !important;
+            }
+
+            .pad-l15 {
+                padding-left: 15px !important;
+            }
+
+            .pad-l10 {
+                padding-left: 10px !important;
+            }
+
+            .pad-l0 {
+                padding-left: 0px !important;
+            }
+
+            .pad-r30 {
+                padding-right: 30px !important;
+            }
+
+            .pad-r25 {
+                padding-right: 25px !important;
+            }
+
+            .pad-r24 {
+                padding-right: 24px !important;
+            }
+
+            .pad-r20 {
+                padding-right: 20px !important;
+            }
+
+            .pad-r15 {
+                padding-right: 15px !important;
+            }
+
+            .pad-r10 {
+                padding-right: 10px !important;
+            }
+
+            .pad-r0 {
+                padding-right: 0px !important;
+            }
+
+            .pad-tb40 {
+                padding-top: 40px !important;
+                padding-bottom: 40px !important;
+            }
+
+            .pad-tb30 {
+                padding-top: 30px !important;
+                padding-bottom: 30px !important;
+            }
+
+            .pad-tb20 {
+                padding-top: 20px !important;
+                padding-bottom: 20px !important;
+            }
+
+            .pad-tb14 {
+                padding-top: 14px !important;
+                padding-bottom: 14px !important;
+            }
+
+            .pad-tb0 {
+                padding-top: 0px !important;
+                padding-bottom: 0px !important;
+            }
+
+            .pad-lr10 {
+                padding-left: 10px !important;
+                padding-right: 10px !important;
+            }
+
+            .pad-lr15 {
+                padding-left: 15px !important;
+                padding-right: 15px !important;
+            }
+
+            .pad-lr20 {
+                padding-left: 20px !important;
+                padding-right: 20px !important;
+            }
+
+            .pad-lr24 {
+                padding-left: 24px !important;
+                padding-right: 24px !important;
+            }
+
+            .pad-lr0 {
+                padding-left: 0px !important;
+                padding-right: 0px !important;
+            }
+
+            .pad-l0 {
+                padding-left: 0px !important;
+            }
+
+            .pad-r0 {
+                padding-right: 0px !important;
+            }
+
+            .pad15 {
+                padding: 15px !important;
+            }
+
+            .pad0 {
+                padding: 0px !important;
+            }
+
+            .mar-b30 {
+                margin-bottom: 30px !important;
+            }
+
+            .mar-b25 {
+                margin-bottom: 25px !important;
+            }
+
+            .mar-b20 {
+                margin-bottom: 20px !important;
+            }
+
+            .mar-b15 {
+                margin-bottom: 15px !important;
+            }
+
+            .mar-b10 {
+                margin-bottom: 10px !important;
+            }
+
+            .mar-b0 {
+                margin-bottom: 0px !important;
+            }
+
+            .mar-t40 {
+                margin-top: 40px !important;
+            }
+
+            .mar-t30 {
+                margin-top: 30px !important;
+            }
+
+            .mar-t25 {
+                margin-top: 25px !important;
+            }
+
+            .mar-t20 {
+                margin-top: 20px !important;
+            }
+
+            .mar-t15 {
+                margin-top: 15px !important;
+            }
+
+            .mar-t10 {
+                margin-top: 10px !important;
+            }
+
+            .mar-t0 {
+                margin-top: 0px !important;
+            }
+
+            .mar-lr0 {
+                margin-left: 0px !important;
+                margin-right: 0px !important;
+            }
+
+            .mar-l0 {
+                margin-left: 0px !important;
+            }
+
+            .mar-r0 {
+                margin-right: 0px !important;
+            }
+
+            .no-bdr {
+                border: none !important;
+            }
+
+            .mar-l24 {
+                margin-left: 24px !important;
+            }
+
+            .mar-tb40 {
+                margin-top: 40px !important;
+                margin-bottom: 40px !important;
+            }
+
+            .middle {
+                margin: 0 auto !important;
+            }
+
+            .center {
+                text-align: center !important;
+                margin: auto !important;
+            }
+
+            .btn-center {
+                text-align: center !important;
+                margin: auto !important;
+            }
+
+            .txt-left {
+                text-align: left !important;
+            }
+
+            .txt-right {
+                text-align: right !important;
+            }
+
+            .txt-center {
+                text-align: center !important;
+            }
+
+            .autoheight {
+                height: auto !important;
+            }
+
+            .float-l {
+                float: left !important;
+            }
+
+            .float-r {
+                float: right !important;
+            }
+
+            .height0 {
+                height:
+                    0px !important;
+            }
+
+            .hide {
+                display: none !important;
+            }
+
+            .block {
+                display: block !important;
+            }
+
+            .xs-overFlow {
+                height: auto !important;
+                overflow: inherit !important;
+                float: none !important;
+            }
+
+            .ftr-link a,
+            .ftr-link a:link,
+            .ftr-link a:visited {
+                color: inherit;
+                text-decoration: none;
+            }
+
+            .mb-bnr {
+                background-size: 100% 100%;
+                height: 60px;
+            }
+
+            .w45 {
+                width: 45% !important;
+            }
+
+            .sc-bnr-hide {
+                display: none !important;
+            }
+
+            .sc-bnr-show {
+                display: block !important;
+                width: auto !important;
+                overflow: visible !important;
+            }
+
+            .sc-bnr-show img {
+                width: 100% !important;
+                height: auto !important;
+            }
+
+            .mar-lr0 {
+                margin-left: -24px !important;
+                margin-right: -24px !important;
+            }
+
+            .w124 {
+                width: 124px;
+                height: auto;
+                float: left;
+            }
+        }
+    </style>
+
+    <style>
+        .green-button {
+            padding: 10px 16px 10px 16px;
+            -webkit-border-radius: 18px;
+            -moz-border-radius: 18px;
+            border-radius: 18px;
+            background-color: #377E55
+        }
+    </style>
+
+    <title>Hello, world!</title>
+</head>
+
+<body style="background-color: #F3F3F2;">
+
+    <div class="container" style="max-width: 614px;">
+
+        <div class="row" style="background-color: #56504B; padding: 19px 55px">
+            <div class="col">
+                <img src="https://www.oracle.com/a/ocom/img/dc/tb/rwd/oracle-white-123x16px.png" alt="Oracle Logo"
+                    class="img-fluid float-left" style="display:block; max-width: 92px"></div>
+            <div class="col">
+                <img src="https://www.oracle.com/a/ocom/img/dc/tb/rwd/oracle-identifier-cloud-platform.png"
+                    alt="Identifier Logo" class="img-fluid float-right" style="display:block;" class="proLogoTagImage"
+                    width="auto" border="0">
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="https://www.oracle.com/oce/dc/assets/CONTFBF5A28C4A164EDE86B26A1EDA1830A5/native/picture-header.png"
+                style="display:block;" class="img-fluid" alt="Oracle Digital Assistant News"
+                class="sc-bnr-hide tmpImage vb-fullwidth Mob-full-image" id="campaignImage" width="614" height="317"
+                border="0">
+        </div>
+
+        <div class="row flex-column" style="padding:40px 55px 40px 55px; background-color:#312D2A; color:#ffffff">
+            <h1 style="font-size:20px; font-weight: bold;">Oracle Digital Assistant News</h1>
+            <div>
+                <hr style="background-color:#FACD62; color:#FACD62; height:2px; width:24px; border:0px; float: left;text-align: left"
+                    class="hr-line">
+            </div>
+            <p>Welcome to the complete collection of <b>Oracle Digital Assistant News</b>. From here you
+                access all editions of our newsletter, including the most recent edition.</p>
+            <p>Each month we endeavor to bring you a mix of industry views, customer stories, upcoming events, best
+                practices and technical articles. Hopefully something for everyone, whatever your role.</p>
+            <p>If you have anything you would us to features in a future edition please contact us via <a
+                    style="text-decoration-line: underline"
+                    href="https://twitter.com/intent/tweet?text=I%20want%20to%20submit%20content&hashtags=OracleODA,OracleODANews&via=oracle">Twitter</a>
+                with #OracleODA #OracleODANews</p>
+            <p>Please feel free to forward this newsletter to anybody who maybe interested and invite them to subscribe
+                too.</p>
+            <div class="mt-3">
+                <a class="green-button"
+                    href="http://app.response.oracle-mail.com/e/er?elq_mid=174010&amp;sh=142697181317269518815021399&amp;cmid=&amp;s=1973398186&amp;lid=439993&amp;elqTrackId=c008728166fe4b2eb7c02c1565c80567&amp;elq=50e50271cab04b09befddf5ce4163ea4&amp;elqaid=174010&amp;elqat=1"
+                    target="_blank">
+                    subscribe
+                </a>
+            </div>
+        </div>
+
+        <div class="row flex-column" style="padding:40px 55px 40px 55px; background-color:#ffffff; color: #161513">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <a
+                        href="https://www.oracle.com/oce/dc/assets/CONT4B325522B18E47D1B7097320D2B4A33B/native/nsl400091816-ww-ww-nl-rwnl1-nsl1-ev.html?elq_mid=174010&sh=142697181317269518815021399&cmid=">
+                        September 2020
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a
+                            href="https://www.oracle.com/oce/dc/assets/CONT04D8E7B295AF41C2A431363D691F0C7A/native/nsl400083529-ww-ww-nl-rwnl1-nsl1-ev.html?source=:em:nw:mt:::RC_ACMK200629P00021:NSL400091816&elq_mid=174010&sh=142697181317269518815021399&cmid=">
+                        August 2020
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a
+                        href="https://www.oracle.com/oce/dc/assets/CONT2C9B4D3089104935A3C8B7B02FF34C8F/native/nsl400070982-ww-ww-nl-rwnl1-nsl1-ev.html?source=:em:nw:mt:::RC_ACMK200629P00021:NSL400091816&elq_mid=174010&sh=142697181317269518815021399&cmid=">
+                        July 2020
+                    </a>
+                </li>
+            </ul>
+        </div>
+<div class="row flex-column"
+    style="padding:40px 55px 40px 55px; background-color:#312D2A; color:#ffffff; font-size: 10px; padding-bottom: 0;">
+    <div>
+        <a id="privacyLink" class="tbfooter" href="https://www.oracle.com/legal/privacy/index.html"
+            style="font-family:'Oracle Sans', Noto Sans, Helvetica, Arial, Sans; color:#FFFFFF; text-decoration:none; word-break:break-all; white-space: nowrap;"
+            target="_blank">Terms of Use and Privacy</a>
+        <span class="tbfooter" style="color:#FFFFFF;">|</span>
+        <a id="subscribeLink" class="subscribe tbfooter"
+            href="https://go.oracle.com/subscribe?l_code=en-us&amp;src1=EM:FO"
+            style="font-family:'Oracle Sans', Noto Sans, Helvetica, Arial, Sans; color:#FFFFFF; text-decoration:none; word-break:break-all; white-space: nowrap;"
+            target="_blank">Subscriptions</a>
+        <span class="subscribe tbfooter" style="color:#FFFFFF;">|</span>
+        <a id="unsubscribeLink" class="tbfooter" href="https://go.oracle.com/dne?l_code=en-us"
+            style="font-family:'Oracle Sans', Noto Sans, Helvetica, Arial, Sans; color:#FFFFFF; text-decoration:none; word-break:break-all; white-space: nowrap;"
+            target="_blank">Unsubscribe</a> <span class="tbfooter" style="color:#FFFFFF;">|</span>
+        <a id="contactusLink" class="tbfooter" href="https://www.oracle.com/corporate/contact/global.html"
+            style="font-family:'Oracle Sans', Noto Sans, Helvetica, Arial, Sans; color:#FFFFFF; text-decoration:none; word-break:break-all; white-space: nowrap;"
+            target="_blank">Contact Us</a> <span class="tbfooter" style="color:#FFFFFF;">|</span>&nbsp;<span
+            id="teconsent"
+            style="font-family: &quot;Oracle Sans&quot;, &quot;Noto Sans&quot;, Helvetica, Arial, Sans; color: rgb(255, 255, 255); text-decoration: none; word-break: break-all; white-space: nowrap; display: inline;"
+            consent="0,1,2" aria-label="Open Cookie Preferences Modal" role="complementary">
+            <script async="async" type="text/javascript" crossorigin=""
+                src="https://consent-st.trustarc.com/asset/notice.js/v/v1.7-194"></script><a role="link"
+                id="icon-id09479440310902998" tabindex="0" lang="en" style="cursor: pointer;">Cookie Preferences</a>
+    </div>
+    <div class="mt-3 ">
+        <p>Copyright © 2020, Oracle and/or its affiliates. All rights reserved. Oracle Corporation - Worldwide
+            Headquarters,
+            500 Oracle Parkway, OPL - E-mail Services, Redwood Shores, CA 94065, United States</p>
+        <a href="http://www.oracle.com/us/corporate/index.html" target="_blank">
+            <img
+                src="https://www.oracle.com/a/ocom/img/dc/tb/rwd/o-red-tag.png" width="36" height="36" alt="Oracle"
+                border="0" style="display:block;" class="float-right"></a>
+    </div>
+</div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
