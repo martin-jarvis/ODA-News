@@ -12,7 +12,9 @@
 
     <style>
         @import url('https://www.oracle.com/a/ocom/docs/dc/tb/src/oracle-sans-font.css?family=Oracle+Sans');
+</style>
 
+<style>
         @media screen {
             @font-face {
                 font-family: "Oracle Sans";
@@ -74,10 +76,6 @@
             text-decoration: none;
         }
 
-        v:* {
-            behavior: url(#default#VML);
-            display: block;
-        }
 
         a[x-apple-data-detectors] {
             color: inherit !important;
@@ -92,7 +90,8 @@
             width: 24px !important;
         }
     </style>
-
+    
+<!--
     <style>
         @media only screen and (max-width: 359px) {
 
@@ -531,14 +530,62 @@
             }
         }
     </style>
-
+-->
     <style>
+        .panel {
+            padding:40px 55px 40px 55px; 
+        }
+        .panel as {
+            text-decoration-line: underline;
+        }
+        .dark-panel a:hover {
+            text-decoration-line:underline;
+            color: #ffffff;
+        }
+        .panel > h1 {
+            font-size:20px; 
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .panel > h3 {
+            font-size:16px; 
+            font-weight: normal;
+            margin-top: 5px;
+        }
+        .dark-panel {
+            background-color:#312D2A; 
+            color:#ffffff;
+        }
+        .dark-panel > h3 {
+            color: #999999;
+        }
+        .light-panel {
+            background-color:#ffffff; 
+            color: #161513
+        }
+        .light-panel a:hover {
+            text-decoration-line:underline;
+            color: #161513;
+        }
+        .light-panel > h3 {
+            color: #83817f;
+        }
+        .yellow-bar {
+            background-color:#FACD62; 
+            color:#FACD62; 
+            height:2px; 
+            width:24px; 
+            border:0px; 
+            float: left;
+            text-align: left
+        }
         .green-button {
             padding: 10px 16px 10px 16px;
             -webkit-border-radius: 18px;
             -moz-border-radius: 18px;
             border-radius: 18px;
-            background-color: #377E55
+            background-color: #377E55;
+            color: #ffffff;
         }
     </style>
 
@@ -567,19 +614,19 @@
                 border="0">
         </div>
 
-        <div class="row flex-column" style="padding:40px 55px 40px 55px; background-color:#312D2A; color:#ffffff">
-            <h1 style="font-size:20px; font-weight: bold;">Oracle Digital Assistant News</h1>
+        <div class="row flex-column panel dark-panel">
+            <h1>Oracle Digital Assistant News</h1>
             <div>
-                <hr style="background-color:#FACD62; color:#FACD62; height:2px; width:24px; border:0px; float: left;text-align: left"
-                    class="hr-line">
+                <hr class="yellow-bar"/>
             </div>
             <p>Welcome to the complete collection of <b>Oracle Digital Assistant News</b>. From here you
                 access all editions of our newsletter, including the most recent edition.</p>
             <p>Each month we endeavor to bring you a mix of industry views, customer stories, upcoming events, best
                 practices and technical articles. Hopefully something for everyone, whatever your role.</p>
-            <p>If you have anything you would us to features in a future edition please contact us via <a
-                    style="text-decoration-line: underline"
-                    href="https://twitter.com/intent/tweet?text=I%20want%20to%20submit%20content&hashtags=OracleODA,OracleODANews&via=oracle">Twitter</a>
+            <p>If you have anything you would us to features in a future edition please contact us via 
+                <a href="https://twitter.com/intent/tweet?text=I%20want%20to%20submit%20content&hashtags=OracleODA,OracleODANews&via=oracle">
+                    Twitter
+                </a>
                 with #OracleODA #OracleODANews</p>
             <p>Please feel free to forward this newsletter to anybody who maybe interested and invite them to subscribe
                 too.</p>
@@ -592,7 +639,8 @@
             </div>
         </div>
 
-        <div class="row flex-column" style="padding:40px 55px 40px 55px; background-color:#ffffff; color: #161513">
+        <div class="row flex-column panel light-panel" >
+            <h1>Monthly Newsletters</h1>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">
                     <a
@@ -615,9 +663,22 @@
                 </li>
             </ul>
         </div>
-<div class="row flex-column"
-    style="padding:40px 55px 40px 55px; background-color:#312D2A; color:#ffffff; font-size: 10px; padding-bottom: 0;">
-    <div>
+        <div class="row flex-column panel light-panel">
+        <h1>We need your help!</h1>
+    <h3>Gartner Peer Insights</h3>
+    <p>Would you be willing to take a moment to write a review on Gartner Peer Insights about your experience with Oracle Digital Assistant? Your opinion is important to us, and we value your feedback. Reviews are anonymous and take approximately 10 minutes to complete.</p>
+    
+    <p>As a thank-you, once your review is published, you’ll receive 3-months access to Gartner Peer Insights Plus. Please note that Gartner Peer Insights Plus is currently not available to consultants, systems integrators, or technology providers.</p>
+    <div class="mt-3">
+        <a class="btn green-button" href="https://gtnr.it/32IRBJj">submit your review</a>
+        </div>
+    
+    </div>
+    
+    
+    <div class="row flex-column panel dark-panel"
+    style="font-size: 10px; padding-bottom: 0;">
+        <div>
         <a id="privacyLink" class="tbfooter" href="https://www.oracle.com/legal/privacy/index.html"
             style="font-family:'Oracle Sans', Noto Sans, Helvetica, Arial, Sans; color:#FFFFFF; text-decoration:none; word-break:break-all; white-space: nowrap;"
             target="_blank">Terms of Use and Privacy</a>
