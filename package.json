@@ -1,0 +1,22 @@
+{
+  "name": "newsletter",
+  "version": "1.0.0",
+  "description": "Simple page to present a list of all the previous newsletter articles",
+  "main": "index.js",
+  "scripts": {
+    "start": "bundle exec jekyll serve --livereload"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martin-jarvis/ODA-News.git"
+  },
+  "author": "Martin Jarvis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martin-jarvis/ODA-News/issues"
+  },
+  "homepage": "https://github.com/martin-jarvis/ODA-News#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
