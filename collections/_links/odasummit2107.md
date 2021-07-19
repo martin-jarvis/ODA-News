@@ -9,6 +9,8 @@ links:
       url: bit.ly/odanews
     - title: Gartner Peer Reviews
       url: gtnr.it/32IRBJj
+    - title: IT Helpdesk Template
+      url: bit.ly/ODAITHelpDesk
     - title: FAQ Template skill
       url: bit.ly/odafaqtemplate
     - title: CX Service Template Demo
