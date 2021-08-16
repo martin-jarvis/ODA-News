@@ -17,9 +17,9 @@ links:
       url: bit.ly/ODADesignCamp
     - title: HCM Skills learning path (video channel)
       url: bit.ly/odahcmglp21
-    - title: Connect, innovate & extend SaaS Partner LaunchOn-demand Webcast
+    - title: Connect, innovate & extend SaaS Partner Launch On-demand Webcast
       url: bit.ly/InnovateSaaS2021
-    - title: Partner Cloud Platform LaunchOn-demand Webcast 
+    - title: Partner Cloud Platform Launch On-demand Webcast 
       url: bit.ly/InnovatePaaS2021 
     - title: SalesCentral (presentations and demos)
       url: https://salescentral.oracle.com
