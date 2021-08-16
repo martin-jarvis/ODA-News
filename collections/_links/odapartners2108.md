@@ -21,16 +21,20 @@ links:
       url: bit.ly/InnovateSaaS2021
     - title: Partner Cloud Platform Launch On-demand Webcast 
       url: bit.ly/InnovatePaaS2021 
-    - title: SalesCentral (presentations and demos)
+    - title: SalesCentral (sales kit, presentations and demos)
       url: https://salescentral.oracle.com
     - title: On-demand chatbot hands-on training
       url: bit.ly/ODAtraining2021
     - title: Developer Partner Community
-      url: bit.ly/ODAPartner
+      url: bit.ly/odapartnerpage
     - title: Partner Finder
       url: https://partner-finder.oracle.com/catalog/
     - title: cloud Marketplace
       url: https://cloudmarketplace.oracle.com/marketplace/en_US/homePage.jspx
+    - title: EPM Training Bootcamp
+      url: https://videohub.oracle.com/media/ODA+EPM+details/1_gmdp0vp1
+    - title: Win story template
+      url: bit.ly/partnerWIN
 
 
 ---
