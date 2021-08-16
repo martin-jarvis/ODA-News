@@ -27,6 +27,10 @@ links:
       url: bit.ly/ODAtraining2021
     - title: Developer Partner Community
       url: bit.ly/ODAPartner
+    - title: Partner Finder
+      url: https://partner-finder.oracle.com/catalog/
+    - title: cloud Marketplace
+      url: https://cloudmarketplace.oracle.com/marketplace/en_US/homePage.jspx
 
 
 ---
