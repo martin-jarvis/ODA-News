@@ -38,3 +38,14 @@ links:
 
 
 ---
+All the replays, slides and links provided during the August 2021 ODA Partner Community webcast.
+
+### Replays
+* Americas, EMEA : [watch here](https://videohub.oracle.com/media/t/1_kt3y2e22)
+* APAC, India : [watch here](https://videohub.oracle.com/media/t/1_fj3alnkx)
+
+### Slides
+* [Download pdf](https://securesites-prodapp.cec.ocp.oraclecloud.com/documents/link/LD9E26B4E2CCF57B590215D267045B24CE389FF0E731/fileview/D0BCEDCECF48CF2E550DFA83B2C9CEEAB09E06B93B30/_SlackPartnerWebcast_2021_08.pdf)
+
+
+<i>Please note. bit.ly links are case sensitive.</i>
