@@ -34,7 +34,7 @@ layout: default
                     {% if link.url contains "https://" %}
                     <a href="{{ link.url }}">
                     {% else %} 
-                    <a href="{{ link.url | prepend:'https://''}}">
+                    <a href="{{ link.url | prepend:'https://'}}">
                     {% endif %}
                     {{link.title}}</a>
                 </li>
