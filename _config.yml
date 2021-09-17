@@ -26,6 +26,8 @@ collections_dir: collections
 collections:
   links:
     output: true
+  templates:
+    output: true
 
 # Build settings
 markdown: kramdown
