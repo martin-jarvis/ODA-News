@@ -54,6 +54,8 @@ templates:
     links:
       - title: Getting Started Guide
         url: https://docs.oracle.com/en/cloud/saas/enterprise-performance-management-common/cgsda/dig_asst_introduction_110x6247eb86.html
+      - title: Implementing the EPM Digital Assistant 
+        url: https://docs.oracle.com/en/cloud/saas/enterprise-performance-management-common/cgsda/dig_asst_admin_chapter_104x3ec10460.html
   - name: Oracle Recruitment
     features: Taleo Recruitment Assistant
     links:
