@@ -22,9 +22,10 @@ layout: default
         {{ content }}
     </div>
     {% for template in page.templates %}
-    <div class="row flex-column panel light-panel">
+    <div class="row flex-column panel light-panel" style="border-bottom: 1px solid rgba(0,0,0,.125); padding-top: 15px; padding-bottom: 15px;">
 
         <h1>{{ template.name }}</h1>
+        <p><small>{{ template.features }}</small></p>
     
         <ul class="list-group list-group-flush">
     
@@ -40,9 +41,9 @@ layout: default
                     {{link.title}}</a>
                 </li>
                 {% endfor %}
+            </ul>
     
         </ul>
-
 
     </div>
     {% endfor %}
