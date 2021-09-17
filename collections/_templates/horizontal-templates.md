@@ -48,7 +48,7 @@ templates:
     features: Sales Assistant
     links:
       - title: Learn about Oracle Sales Assistant
-        url: http://www.oracle.com/pls/topic/lookup?ctx=cloud&id=FASTG3392325
+        url: https://www.oracle.com/pls/topic/lookup?ctx=cloud&id=FASTG3392325
   - name: Oracle EPM Cloud
     features: Enterprise Performance Management
     links:
