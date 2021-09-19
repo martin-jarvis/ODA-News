@@ -3,14 +3,6 @@ layout: templates
 title:  Oracle Digital Assistant - Vertical Solution Templates
 date:   2021-09-17 09:00:00 +0100
 templates:
-  - name: Education
-    features:
-      Higher Education Digital Assistant for PeopleSoft Campus Solutions
-    links:
-      - title: Solution overview and demonstration
-        url: https://intrasee.com/ai/
-      - title: Case study
-        url: https://intrasee.com/blog/meet-luie/
   - name: Financial Services
     features: Digital Experience in Banking
     links:
@@ -52,6 +44,14 @@ templates:
         url: https://blogs.oracle.com/scm/introducing-the-oracle-logistics-digital-assistant
       - title: Getting Started Guide
         url: https://docs.oracle.com/en/cloud/saas/transportation/21c/otmda/index.html
+  - name: Education
+    features:
+      Higher Education Digital Assistant for PeopleSoft Campus Solutions
+    links:
+      - title: Student Self Service - IntraSee
+        url: https://intrasee.com/products-services/student-self-service/
+      - title: Case study
+        url: https://intrasee.com/blog/meet-luie/
   - name: Utilities
     features: Outages, Billing, Moving Home
     links:
