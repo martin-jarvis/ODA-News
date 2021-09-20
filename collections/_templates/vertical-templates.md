@@ -13,6 +13,8 @@ templates:
   - name: Hospitality
     features: Housekeeping, Occupancy, Reservations
     links:
+      - title: Template Description
+        url: https://blogs.oracle.com/mobile/techexchange%3a-oracle-digital-assistant-template-for-hospitality-food-beverage
       - title: Feature Demonstration
         url: https://videohub.oracle.com/media/Oracle Digital Assistant Template for Hospitality demo/1_s5rbn4ou
   - name: IT Service Management
@@ -55,6 +57,8 @@ templates:
   - name: Utilities
     features: Outages, Billing, Moving Home
     links:
+      - title: Template Description
+        url: https://blogs.oracle.com/mobile/techexchange%3a-oracle-digital-assistant-template-for-utilities
       - title: Outage Reporting Demonstration
         url: https://videohub.oracle.com/media/Oracle Digital Assistant Template for Utilities Demo/1_imvbnzdn
 
