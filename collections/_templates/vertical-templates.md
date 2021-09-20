@@ -32,6 +32,8 @@ templates:
   - name: Retail
     features: Orders, Memberships, Gift Cards, Appointments
     links:
+      - title: Template Overview
+        url: https://blogs.oracle.com/mobile/techexchange%3a-oracle-digital-assistant-template-for-retail
       - title: Feature Demonstration
         url: https://videohub.oracle.com/media/t/1_0ak84j4w
   - name: Telecom
