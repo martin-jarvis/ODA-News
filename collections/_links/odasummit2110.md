@@ -10,6 +10,8 @@ links:
       url: bit.ly/ODADesignCamp
     - title: Best Practice Blueprints
       url: https://docs.oracle.com/en/cloud/paas/digital-assistant/use-chatbot/preparation-and-best-practices.html
+    - title: "Oracle TechExchange: Oracle B2C Agent Assistant"
+      url: https://blogs.oracle.com/digitalassistant/post/oracle-techexchange-oracle-b2c-agent-assistant
     - title: Digital Assistant Newsletter 
       url: bit.ly/odanews
 ---
