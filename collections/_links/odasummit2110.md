@@ -1,6 +1,7 @@
 ---
 layout: links
-title:  Oracle Digital Assistant Customer Summit 18th/19th October 2021
+title:  Oracle Digital Assistant Customer Summit
+subtitle: 18th/19th October 2021
 date:   2021-10-18 16:00:00 +0100
 links:
     - title: Design Camp Best Practices Videos
@@ -12,6 +13,8 @@ links:
     - title: Digital Assistant Design Camp video channel
       url: bit.ly/ODADesignCamp
 ---
+Links provided during the October 2021 Oracle Digital Assistant customer summit.
+<!-- 
 All the replays, slides and links provided during the October 2021 Oracle Digital Assistant customer summit will appear here as soon as they are available.
 
 ### Replays
@@ -20,3 +23,4 @@ All the replays, slides and links provided during the October 2021 Oracle Digita
 
 ### Slides
 * coming soon
+-->
