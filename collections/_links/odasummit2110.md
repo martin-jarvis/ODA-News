@@ -15,4 +15,11 @@ links:
     - title: Digital Assistant Newsletter 
       url: bit.ly/odanews
 ---
-Links provided during the October 2021 Oracle Digital Assistant customer summit. 
+All the replays, slides and links provided during the October 2021 Oracle Digital Assistant customer summit. 
+
+### Replays
+* Americas, EMEA : [watch here](https://videohub.oracle.com/media/Oracle+Digital+Assistant+Customer+Summit+October+2021+%28NASEMEALAD%29/1_au34rkud)
+* APAC, India : [watch here](https://videohub.oracle.com/media/Oracle+Digital+Assistant+Customer+Summit+October+2021+%28APAC%29/1_zeodis5x)
+
+### Slides
+* [Download pdf](https://securesites-prodapp.cec.ocp.oraclecloud.com/documents/link/LD9352B5B8AB81F759E3208852A0F1EC6F26D517F684/fileview/DFF27E410721C66E0D2A8492E242EC1C4C750CF4AE84/_customer_summit_20211018_master_deck.pdf)
