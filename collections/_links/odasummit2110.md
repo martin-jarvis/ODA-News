@@ -23,3 +23,7 @@ All the replays, slides and links provided during the October 2021 Oracle Digita
 
 ### Slides
 * [Download pdf](https://securesites-prodapp.cec.ocp.oraclecloud.com/documents/link/LD9352B5B8AB81F759E3208852A0F1EC6F26D517F684/fileview/DFF27E410721C66E0D2A8492E242EC1C4C750CF4AE84/_customer_summit_20211018_master_deck.pdf)
+
+### Register
+If you are not already registered to take part in these events, or you would like to be sent the replays automatically, please complete this short registration.
+[Register Here](https://oracle.zoom.us/webinar/register/3716352736269/WN_B23x99RuTciwkGFdhHWrqg)
