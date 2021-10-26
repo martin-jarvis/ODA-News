@@ -26,4 +26,5 @@ All the replays, slides and links provided during the October 2021 Oracle Digita
 
 ### Register
 If you are not already registered to take part in these events, or you would like to be sent the replays automatically, please complete this short registration.
+
 [Register Here](https://oracle.zoom.us/webinar/register/3716352736269/WN_B23x99RuTciwkGFdhHWrqg)
