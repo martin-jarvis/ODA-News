@@ -1,36 +1,42 @@
 ---
-layout: links
+layout: linkswithsections
 title:  Oracle Digital Assistant Partner Community Webcast 15th/16th November 2021
 date:   2021-07-19 16:00:00 +0100
-links:
-    - title: Monthly Newsletter (October 2021, ODA 21.10 release)
-      url: https://bit.ly/ODANewsOctober2021
-    - title: Monthly Newsletter archive
-      url: bit.ly/odanews
-    - title: Artie (and ODA documentation)
-      url: bit.ly/ODADoc
-    - title: Digital Assistant Design Camp video channel
-      url: bit.ly/ODADesignCamp
-    - title: HCM Skills learning path (video channel)
-      url: bit.ly/odahcmglp21
-    - title: Connect, innovate & extend SaaS Partner Launch On-demand Webcast
-      url: bit.ly/InnovateSaaS2021
-    - title: Partner Cloud Platform Launch On-demand Webcast 
-      url: bit.ly/InnovatePaaS2021 
-    - title: SalesCentral (sales kit, presentations and demos)
-      url: https://salescentral.oracle.com
-    - title: On-demand chatbot hands-on training
-      url: bit.ly/ODAtraining2021
-    - title: Developer Partner Community
-      url: bit.ly/odapartnerpage
-    - title: Partner Finder
-      url: https://partner-finder.oracle.com/catalog/
-    - title: cloud Marketplace
-      url: https://cloudmarketplace.oracle.com/marketplace/en_US/homePage.jspx
-    - title: EPM Training Bootcamp
-      url: https://videohub.oracle.com/media/ODA+EPM+details/1_gmdp0vp1
-    - title: Win story template
-      url: bit.ly/partnerWIN
+sections:
+  - name: News & Announcements
+    description: 
+    links:
+      - title: Monthly Newsletter (October 2021, ODA 21.10 release)
+        url: https://bit.ly/ODANewsOctober2021
+      - title: Monthly Newsletter archive
+        url: bit.ly/odanews
+      - title: Artie (and ODA documentation)
+        url: bit.ly/ODADoc
+      - title: Digital Assistant Design Camp video channel
+        url: bit.ly/ODADesignCamp
+      - title: HCM Skills learning path (video channel)
+        url: bit.ly/odahcmglp21
+      - title: On-demand chatbot hands-on training
+        url: bit.ly/ODAtraining2021
+      - title: EPM Training Bootcamp
+        url: https://videohub.oracle.com/media/ODA+EPM+details/1_gmdp0vp1
+  - name: Resources for Partners
+    description: 
+    links:
+      - title: Developer Partner Community
+        url: bit.ly/odapartnerpage
+      - title: Partner Cloud Platform Launch On-demand Webcast 
+        url: bit.ly/InnovatePaaS2021 
+      - title: Partner Finder
+        url: https://partner-finder.oracle.com/catalog/
+      - title: Cloud Marketplace
+        url: https://cloudmarketplace.oracle.com/marketplace/en_US/homePage.jspx
+      - title: Win story template
+        url: bit.ly/partnerWIN
+      - title: SalesCentral (sales kit, presentations and demos)
+        url: https://salescentral.oracle.com
+      - title: Connect, innovate & extend SaaS Partner Launch On-demand Webcast
+        url: bit.ly/InnovateSaaS2021
 
 
 ---

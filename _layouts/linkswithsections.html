@@ -1,0 +1,53 @@
+---
+layout: default
+---
+<div class="container" style="max-width: 614px;">
+
+    <div class="row" style="background-color: #56504B; padding: 19px 55px">
+        <div class="col">
+            <img src="https://www.oracle.com/a/ocom/img/dc/tb/rwd/oracle-white-123x16px.png" alt="Oracle Logo"
+                class="img-fluid float-left" style="display:block; max-width: 92px"></div>
+        <div class="col">
+            <img src="https://www.oracle.com/a/ocom/img/dc/tb/rwd/oracle-identifier-cloud-platform.png"
+                alt="Identifier Logo" class="img-fluid float-right" style="display:block;" class="proLogoTagImage"
+                width="auto" border="0">
+        </div>
+    </div>
+
+    <div class="row flex-column panel dark-panel">
+        <h1>{{ page.title }}</h1>
+        <div>
+            <hr class="yellow-bar"/>
+        </div>
+        {{ content }}
+    </div>
+    {% for section in page.sections %}
+    <div class="row flex-column panel light-panel" style="border-bottom: 1px solid rgba(0,0,0,.125); padding-top: 15px; padding-bottom: 15px;">
+
+        <h1>{{ section.name }}</h1>
+        <p><small>{{ section.description }}</small></p>
+    
+        <ul class="list-group list-group-flush">
+    
+            <ul class="list-group list-group-flush">
+    
+                {% for link in section.links %}
+                <li class="list-group-item">
+                    {% if link.url contains "https://" %}
+                    <a href="{{ link.url }}">
+                    {% else %} 
+                    <a href="{{ link.url | prepend:'https://'}}">
+                    {% endif %}
+                    {{link.title}}</a>
+                </li>
+                {% endfor %}
+            </ul>
+    
+        </ul>
+
+    </div>
+    {% endfor %}
+
+    {% include footer.html %}
+</div>
+
