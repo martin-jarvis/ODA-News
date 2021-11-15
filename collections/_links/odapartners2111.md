@@ -6,6 +6,8 @@ sections:
   - name: News & Announcements
     description: 
     links:
+      - title: "IDC MarketScape: Worldwide General-Purpose Conversational AI Platforms 2021 Vendor Assessment"
+        url: https://www.oracle.com/chatbots/digital-assistant-leader/
       - title: Monthly Newsletter (October 2021, ODA 21.10 release)
         url: https://bit.ly/ODANewsOctober2021
       - title: Monthly Newsletter archive
@@ -86,4 +88,3 @@ All the replays, slides and links provided during the November 2021 ODA Partner 
 
 -->
 
-<i>Please note. bit.ly links are case sensitive.</i>
