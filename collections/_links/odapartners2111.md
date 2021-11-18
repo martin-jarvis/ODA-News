@@ -73,18 +73,26 @@ sections:
 
 
 ---
+<!--
+
 All the links provided during the November 2021 ODA Partner Community webcast. Slides and replay will be available here a few days after the event.
 
-<!--- 
-
+-->
 All the replays, slides and links provided during the November 2021 ODA Partner Community webcast.
 
 ### Replays
-* Americas, EMEA : [watch here](https://videohub.oracle.com/media/t/1_kt3y2e22)
-* APAC, India : [watch here](https://videohub.oracle.com/media/t/1_fj3alnkx)
+* Americas, EMEA : [watch here](https://videohub.oracle.com/media/Oracle%20Bots%20Partner%20Community%20November%202021%20Webcast%20(Americas%20%26%20EMEA)/1_sy5hqsyj)
+* APAC, India : [watch here](https://videohub.oracle.com/media/t/1_gvec4cx9)
 
 ### Slides
-* [Download pdf](https://securesites-prodapp.cec.ocp.oraclecloud.com/documents/link/LD9E26B4E2CCF57B590215D267045B24CE389FF0E731/fileview/D0BCEDCECF48CF2E550DFA83B2C9CEEAB09E06B93B30/_SlackPartnerWebcast_2021_08.pdf)
+* [Download pdf](https://securesites-prodapp.cec.ocp.oraclecloud.com/documents/link/LD833BEF5AC6DDDEB22D80D4D361FC04B19BDFBE4675/fileview/D3A7F6801DDB144DEBF7E3C8F07D7FF7FCE9EF6E8965/_SlackPartnerWebcast_2021_11.pdf)
 
--->
+### Register
+*Don't miss our next quarterly webcast in February 2022 by registering below :* 
 
+* Americas/EMEA : 
+[Register](https://oracle.zoom.us/webinar/register/WN_VATlrCnuTjqCYRb3NMYYZQ) |
+[Add to your calendar](https://oracle.zoom.us/webinar/tJYlf-uvqTsiGdTDiAEuS0NhohmID6K9zHMO/ics?icsToken=98tyKuCqpjMoHdOVuBqHRowQGoqga-3wtmJHjadpuBbEJjVgMi3-OepPG5YpO4HK)
+
+* APAC : [Register](https://oracle.zoom.us/webinar/register/WN_crqTT7EQRIiLMbgtNV6aww) |
+[Add to your calendar](https://oracle.zoom.us/webinar/tJ0kfuqtpzoqHNcTSLZOtsRgpL8_eW6HgK_R/ics?icsToken=98tyKuChpzIpH92UsB-ERox5HYr4b-_xmH5fgo1eqCzJOQ9HcTHxJs4aDbdIRvDX)
