@@ -22,7 +22,7 @@ All the replays, slides and links provided during the October 2021 Oracle Digita
 * APAC, India : [watch here](https://videohub.oracle.com/media/Oracle+Digital+Assistant+Customer+Summit+October+2021+%28APAC%29/1_zeodis5x)
 
 ### Slides
-* [Download pdf](https://securesites-prodapp.cec.ocp.oraclecloud.com/documents/link/LD9352B5B8AB81F759E3208852A0F1EC6F26D517F684/fileview/DFF27E410721C66E0D2A8492E242EC1C4C750CF4AE84/_customer_summit_20211018_master_deck.pdf)
+* [Download pdf](https://orasites-prodapp.ocecdn.oraclecloud.com/content/published/api/v1.1/assets/CONTAE7DB7CC494B43879A908C7EC500DD98/native/customer_summit_20211018_master_deck.pdf?channelToken=98b861d3404c487a8d8696715f2b694f)
 
 ### Register
 If you are not already registered to take part in these events, or you would like to be sent the replays automatically, please complete this short registration.
