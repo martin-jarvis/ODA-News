@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/martin-jarvis/ODA-News#readme",
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.20"
   }
 }
